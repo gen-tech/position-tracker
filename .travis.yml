@@ -8,7 +8,7 @@ branches:
   - master
   - /^(\d+\.){2}\d+$/
 before_script: node ./scripts/tag-update $TRAVIS_TAG
-after_success: npm run cover
+# after_success: npm run cover
 before_deploy: npm run prepare-github-pages
 deploy:
   - provider: pages
@@ -22,7 +22,7 @@ deploy:
     skip_cleanup: true
     email: alisahinozcelik@gmail.com
     api_key:
-      secure: hfZHWsQhCgFtgoyE2y4wzJIznu5Kd4pgNWCxCpWQFsjWGufOOu5ggVYEY0+vDCiIye9LFdavozkweeL4Grcg9hVDR7m9dYZ636Uh7DQ2gGTCqsfQkFuDW71vBs8bc8gf7jfD45MrQOAhEnmlfJEwZkIOOo7kosAw4RsXUlgKNVWdM+gK2ylMvpd/FK/PDFI7HQOCf2NaxuT1rirWg+lVU/GrJoUKSEp9cWML7D1yA7B+D5ciF93BEBVtILPWewZWSt73lu2BF1RCeGK1Rg+oOtAbQz9jRroEUKvK9hA6HubX8wxsEMl40LLT1PZlLKSqFPLnuATQ6rkWExt8Uzw82rGpJ7ubn1Qx6vQaF7UuVERnaMxBDYMXdqfJ2vmWZKF0MbOcB0h9LgzjycSC+r8ySCV+VStDBZ2+8esU06CcwVjWM4XvY+CT56iudIiNkntHdhgtMxnLLodz2XwyE95V46GET1zQU2JtD+hIeEQNCZRfMupDYsS51ue8F+zf8SoCsjA8aiuNpPALBNvPzVibY5yJ0pmHcumTnZye4OVzDblLzWgOwnnscg/Z2O9bw/moesZ/vUwZ1NcHrgOsuNtq4IXGiGsj0GL4jd4qeKuSZQh/PXXBFNTuGQfM24GraiT7dtp3xvCI58oCVkeHCGhDujwfx+b1JvryvkIse81YElk=
+      secure: OhaoDFNk5bf4ps8NQrY3R6egRcvoARiqhHd+mBGg9W9jXLFPVpwrBpcUFPdYAJVe4EqtJW3toTcu+WYWnvk4bebhnNbJZlkiIBburNjP78zvxV5lTcFWZA2S1Z81/wNlDidUMUKEVRM0xEGqD6GLF6VBUGIJ00OMHQTfsNJq/3L0APRkJHbtHQj7c2LcroCK2uVv7F7x8DWYPBwTJ8a1RTNizhFZLgKG9Yiyb5p+ZNCLIfRvPjkcM4blz6VjAVyQXVet3BUcycLr06RgDUF2r9rs5SosK40b1ycWDKHBnCDvY+wVPrlq6ye96VQgTaQNSCJJHCCRRr6IVCmAtjdgHF7yeUg6P01S65X9E5289KdCMS1cTupkIV+2pt1eWaznQ1P8y2hM3xYwv//Od8F8QQ2fbceEIvYFB6mK5LVNGkMUgY5Jf03jDXc7ld42NYU9pOiYjlFzi24EhHpJCygUexp926RlCSEZIO6j5uRlICVacaL3GEwNjfID1uCRWXtMlyXlQ35+Mz1749hmt2aKj1k5Wbhz8EdyZOxhDZaNipqBOALKuDYMN5jdza4+JALCm1JmqwlJlnCbfKPi4/d6axMfz/5+j5fsB6YWHw4RUyHPOIjAudQw3e5rI6eai3G/L5mNIq5gCwcCU6XwBFTvzQKqHWbh0o0tHUy72sBHScQ=
     on:
       tags: true
       repo: gen-tech/position-tracker

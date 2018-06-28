@@ -8,8 +8,7 @@
   "scripts": {
     "prepare": "tsc",
     "document": "typedoc --out docs --excludeNotExported --excludePrivate --disableOutputCheck --gitRevision master --exclude \"**/+(as-proto|as-static)/**/*ts\"",
-    "prepare-github-pages": "npm run document && echo \"\" > ./docs/.nojekyll",
-    "test": "jest"
+    "prepare-github-pages": "npm run document && echo \"\" > ./docs/.nojekyll"
   },
   "repository": {
     "type": "git",

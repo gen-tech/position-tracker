@@ -7,7 +7,7 @@ Library to track DOM element position on the browser
 [![npm](https://img.shields.io/npm/dw/@gen-tech/position-tracker.svg)](https://www.npmjs.com/package/@gen-tech/position-tracker)
 [![patreon](https://img.shields.io/badge/patreon-alisahin-orange.svg)](https://www.patreon.com/alisahin)
 [![TypeScript](https://badges.frapsoft.com/typescript/version/typescript-next.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
-[![npm](https://img.shields.io/npm/l/@gen-tech/position-tracker.svg)](https://github.com/gen-tech/position-tracker/blob/master/LICENSE)
+[![license](https://img.shields.io/npm/l/@gen-tech/position-tracker.svg)](https://github.com/gen-tech/position-tracker/blob/master/LICENSE)
 [![Join the chat at https://gitter.im/gen-tech_position-tracker/Lobby](https://badges.gitter.im/gen-tech_position-tracker/Lobby.svg)](https://gitter.im/gen-tech_position-tracker/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 #### Installation
